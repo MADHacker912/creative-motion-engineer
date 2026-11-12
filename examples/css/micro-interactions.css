@@ -1,0 +1,35 @@
+:root {
+  --ease-spring: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.cme-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.875rem 1.75rem;
+  font-weight: 600;
+  border-radius: 9999px;
+  background: #00F0FF;
+  color: #0D0E11;
+  border: none;
+  cursor: pointer;
+  will-change: transform;
+  transform: translate3d(0, 0, 0);
+  transition: transform 0.25s var(--ease-spring), box-shadow 0.25s ease;
+}
+
+.cme-btn:hover {
+  transform: translate3d(0, -3px, 0) scale(1.02);
+  box-shadow: 0 10px 25px -5px rgba(0, 240, 255, 0.4);
+}
+
+.cme-btn:active {
+  transform: translate3d(0, 1px, 0) scale(0.98);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cme-btn {
+    transition: none;
+    transform: none !important;
+  }
+}

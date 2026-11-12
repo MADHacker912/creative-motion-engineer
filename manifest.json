@@ -1,0 +1,46 @@
+{
+  "name": "creative-motion-engineer",
+  "version": "1.0.0",
+  "description": "Universal creative production skill teaching AI coding agents to conceptualize, design, produce, implement, debug, and optimize professional motion graphics, cinematic videos, 3D experiences, interactive websites, and advanced visual effects.",
+  "author": "Antigravity Creative Team",
+  "license": "MIT",
+  "entry": "SKILL.md",
+  "categories": [
+    "motion-graphics",
+    "3d-animation",
+    "video-production",
+    "web-animation",
+    "creative-frontend",
+    "visual-effects",
+    "glsl-shaders"
+  ],
+  "keywords": [
+    "gsap",
+    "threejs",
+    "react-three-fiber",
+    "remotion",
+    "blender",
+    "ffmpeg",
+    "glsl",
+    "webgl",
+    "motion",
+    "animation",
+    "creative-coding"
+  ],
+  "supportedEnvironments": [
+    "antigravity",
+    "claude-code",
+    "cursor",
+    "windsurf",
+    "cline",
+    "roo-code"
+  ],
+  "qualityGates": [
+    "aesthetic-distinctiveness",
+    "frame-pacing-60fps",
+    "semantic-accessibility",
+    "memory-hygiene",
+    "zero-slop",
+    "clean-code"
+  ]
+}
