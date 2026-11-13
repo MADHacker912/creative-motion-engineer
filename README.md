@@ -48,7 +48,10 @@ creative-motion-engineer/
 │   ├── threejs/                      # Scenegraph, PBR Shaders, Camera Rigs, Optimization
 │   ├── react-three-fiber/            # R3F Canvas, Drei Helpers, Spring Hooks
 │   ├── remotion/                     # Programmatic Video, Interpolation, Audio Sync
-│   ├── blender/                      # Headless Python (bpy), Baking, GLTF Export
+│   ├── blender/                      # Live Bridge (:8198), Headless Python (bpy), GLTF Export
+│   │   ├── live-bridge.md            # Live HTTP Server & Client Protocol Architecture
+│   │   ├── procedural-generation.md  # Bmesh Modeling, PBR Shaders & Turntable Keyframing
+│   │   └── scripts/                  # Production Server & Client Bridge Tools
 │   ├── rive/                         # State Machines, Vector Runtimes, Interactive Bones
 │   ├── lottie/                       # Vector Playback, DotLottie, Web Optimization
 │   ├── webgl/                        # Bare-metal WebGL, Buffer Attributes, Uniforms
@@ -63,6 +66,7 @@ creative-motion-engineer/
 │   ├── 3d-website-workflow.md        # Interactive 3D Product Experience Pipeline
 │   ├── product-advertisement-workflow.md # 15s/30s Commercial Video Pipeline
 │   ├── logo-animation-workflow.md    # Brand Identity Reveal Pipeline
+│   ├── blender-live-workflow.md      # Live Interactive 3D Modeling & Export Pipeline
 │   ├── vfx-workflow.md               # Custom Post-Processing & Shader Pipeline
 │   └── performance-audit-workflow.md # Profiling, DevTools & Memory Hygiene
 │

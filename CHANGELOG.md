@@ -1,4 +1,19 @@
 # Changelog
+
+## [1.1.0] - 2026-11-13
+
+### Added
+- **Live Blender Bridge & Autonomous Integration**:
+  - `technologies/blender/scripts/blender_bridge_server.py`: Real-time HTTP & JSON-RPC server running inside Blender's modal event loop (:8198).
+  - `technologies/blender/scripts/blender_client.py`: Universal CLI & Python controller with auto-detection of live sessions and headless fallback.
+  - `technologies/blender/live-bridge.md`: Full architectural reference for live Blender control, viewport synchronization, and API specs.
+  - `technologies/blender/procedural-generation.md`: Advanced Bmesh parametric generators, PBR glass/metal node graphs, and turntable keyframing.
+  - `workflows/blender-live-workflow.md`: Standard operating procedure for live interactive 3D asset development.
+  - `examples/blender/procedural_gem.py`: Standalone procedural faceted emerald with PBR glass shader and 360-degree turntable.
+  - `examples/blender/live_blender_demo.py`: Live interactive demonstration script connecting to Blender and exporting Draco GLBs.
+  - `examples/blender/README.md`: Setup and execution guide.
+  - Auto-start script installed in `~/.config/blender/3.6/scripts/startup/start_agent_bridge.py`.
+
 All notable changes to the **Creative Motion Engineer** skill will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),

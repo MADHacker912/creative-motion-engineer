@@ -29,7 +29,8 @@ To avoid cognitive overload and context bloat, load only the specific sub-module
 | **Motion Philosophy & Timing** | `core/motion-principles.md`<br>`core/quality-standards.md` | Easing Math, Spring Physics |
 | **Web Motion & Interactive Sites** | `domains/web-animation/`<br>`domains/creative-frontend/` | `technologies/gsap/`<br>`technologies/motion/`<br>`technologies/css-svg/` |
 | **Interactive 3D & WebGL** | `domains/3d-animation/`<br>`domains/visual-effects/` | `technologies/threejs/`<br>`technologies/react-three-fiber/`<br>`technologies/glsl-shaders/` |
-| **Programmatic Video & Motion Design**| `domains/video-production/`<br>`domains/motion-graphics/` | `technologies/remotion/`<br>`technologies/blender/`<br>`technologies/ffmpeg/` |
+| **3D Asset Creation & Live Blender** | `domains/3d-animation/`<br>`workflows/blender-live-workflow.md` | `technologies/blender/`<br>(Live Bridge :8198 & Headless CLI) |
+| **Programmatic Video & Motion Design**| `domains/video-production/`<br>`domains/motion-graphics/` | `technologies/remotion/`<br>`technologies/ffmpeg/` |
 | **Micro-Interactions & UI Feedback** | `domains/web-animation/micro-interactions.md`<br>`examples/css/` | CSS Hardware Accelerations, Web Animations API |
 | **Production Workflows** | `workflows/website-motion-workflow.md`<br>`workflows/cinematic-video-workflow.md`<br>`workflows/3d-website-workflow.md` | End-to-end delivery pipelines |
 | **Quality Audit & Verification** | `checklists/web-animation-quality.md`<br>`checklists/accessibility.md`<br>`checklists/mobile-performance.md` | Chrome DevTools, Lighthouse, Playwright |
@@ -75,7 +76,7 @@ Never add random libraries. Pick the right tool for the job based on hard techni
 - **Three.js / React Three Fiber**: Interactive 3D product viewports, spatial galleries, PBR lighting, camera rigs, geometry manipulation.
 - **WebGL / GLSL**: Custom post-processing passes (RGB split, lens distortion, noise warping, fluid simulation, CRT/halftone dither).
 - **Remotion**: Programmatic video creation using React components, dynamic text insertion, social media short automation, high-res frame-accurate exports.
-- **Blender (Headless Python)**: Procedural 3D asset generation, bake lighting, complex mesh deformers, photorealistic offline rendering.
+- **Blender (Live Bridge & Headless CLI)**: Real-time interactive control of active Blender GUI sessions on port 8198 (procedural modeling, PBR shaders, turntable keyframes, and Draco GLTF exports) with automated fallback to headless CLI execution.
 - **FFmpeg**: Video encoding, transcoding, subtitle burning, lossless clipping, WebM transparent alpha channel generation.
 
 ---
