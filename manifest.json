@@ -1,7 +1,7 @@
 {
   "name": "creative-motion-engineer",
-  "version": "1.1.0",
-  "description": "Universal creative production skill teaching AI coding agents to conceptualize, design, produce, implement, debug, and optimize professional motion graphics, cinematic videos, 3D experiences, interactive websites, and advanced visual effects.",
+  "version": "2.0.0",
+  "description": "Universal creative production intelligence system teaching AI coding agents to conceptualize, design, produce, implement, debug, and optimize professional motion graphics, cinematic videos, 3D experiences, interactive websites, and advanced visual effects.",
   "author": "Antigravity Creative Team",
   "license": "MIT",
   "entry": "SKILL.md",
@@ -12,7 +12,10 @@
     "web-animation",
     "creative-frontend",
     "visual-effects",
-    "glsl-shaders"
+    "glsl-shaders",
+    "blender-engineering",
+    "cinematography",
+    "procedural-systems"
   ],
   "keywords": [
     "gsap",
@@ -28,7 +31,13 @@
     "creative-coding",
     "live-blender",
     "blender-bridge",
-    "procedural-3d"
+    "procedural-3d",
+    "geometry-nodes",
+    "hard-surface-modeling",
+    "pbr-materials",
+    "cinematography",
+    "studio-lighting",
+    "color-management-agx"
   ],
   "supportedEnvironments": [
     "antigravity",
@@ -39,12 +48,14 @@
     "roo-code"
   ],
   "qualityGates": [
-    "aesthetic-distinctiveness",
-    "frame-pacing-60fps",
-    "semantic-accessibility",
-    "memory-hygiene",
-    "zero-slop",
-    "clean-code",
-    "live-blender-integration"
+    "gate-1-physical-coherence",
+    "gate-2-lighting-purity",
+    "gate-3-silhouette-composition",
+    "gate-4-motion-easing-rigor",
+    "gate-5-color-science-agx",
+    "gate-6-zero-slop-primitives",
+    "gate-7-render-feedback-loop",
+    "gate-8-hardware-safety-cpu",
+    "gate-9-deterministic-delivery"
   ]
 }

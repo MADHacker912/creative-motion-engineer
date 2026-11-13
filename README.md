@@ -1,31 +1,69 @@
-# Creative Motion Engineer (CME)
-> The Universal AI Agent Skill for Professional Motion Graphics, 3D Real-Time Experiences, Cinematic Video Production, and Creative Frontend Engineering.
+# Creative Motion Engineer (CME) 2.0
+> Universal Creative Production Intelligence System for AI Coding Agents.
+
+[![CME Version](https://img.shields.io/badge/version-2.0.0-blue.svg)](CHANGELOG.md)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Blender 3.6+ LTS](https://img.shields.io/badge/Blender-3.6%2B%20LTS-orange.svg)](https://www.blender.org/)
+[![Three.js / GSAP](https://img.shields.io/badge/WebGL-Three.js%20%7C%20GSAP-green.svg)](https://threejs.org/)
 
 ---
 
 ## Overview
 
-**Creative Motion Engineer (CME)** is an exhaustive, production-grade knowledge system and operational handbook designed to teach autonomous AI coding agents to think, design, and build like world-class creative technologists. 
+**Creative Motion Engineer (CME) 2.0** transforms an autonomous AI coding agent into a multidisciplined creative production engineer combining the mindsets of a **Senior 3D Artist, Creative Director, Motion Designer, Cinematographer, Technical Artist, and Creative Technologist**.
 
-Rather than regurgitating generic code snippets, CME equips agents with:
-1. **Creative Intelligence**: Fundamental visual design theory, emotional pacing, color psychology, and composition.
-2. **Motion Choreography**: Easing curves, spring mechanics, Disney's 12 principles adapted for digital screens, and timeline architecture.
-3. **Universal Technology Mastery**: Deep technical competence across **GSAP, Three.js, React Three Fiber, GLSL Shaders, Remotion, Blender Python, FFmpeg, Motion, Rive, Lottie, and Modern CSS**.
-4. **End-to-End Workflows**: 7 step-by-step production workflows from concept discovery to 60fps mobile-verified delivery.
-5. **Quality & Accessibility Standards**: Built-in verification checklists for Core Web Vitals, memory leak prevention, WCAG 2.1 AA compliance, and `prefers-reduced-motion` fallbacks.
+Unlike typical code generators that produce generic primitive placeholders or unmotivated animations, CME 2.0 operates with strict aesthetic taste, physical material modeling, high-contrast AgX color science, closed-loop visual inspection, and deterministic production workflows.
 
 ---
 
-## Directory Structure
+## What's New in CME 2.0
+
+### 1. Professional Creative Intelligence
+- **10-Step Pre-Production Protocol**: Intentional design dialect selection (*Luxury Industrial, Monumental Brutalist, Swiss Editorial, Organic/Bio-Mechanical*), visual reference deconstruction, and explicit anti-pattern bans.
+- **Closed-Loop Visual Iteration**: Mandatory 12-stage Render-Inspect-Correct cycle. Agents render intermediate frames, inspect with diagnostic audits, and refine before presenting deliverables.
+- **The 9 Production Quality Gates**: Physical Coherence, Lighting Purity, Silhouette Separation, Motion Easing Rigor, Color Science (AgX), Zero Primitive Slop, Closed Visual Feedback, Hardware Safety, and Deterministic Delivery.
+
+### 2. Professional Blender Intelligence
+- **Advanced Modeling (`technologies/blender/advanced-modeling.md`)**: Professional hard-surface topology, non-destructive Bevel + Weighted Normal modifier stacks, subdivision edge flow, and Bmesh parametric generators.
+- **Geometry Nodes (`technologies/blender/geometry-nodes.md`)**: Procedural distribution graphs, radial/circular instancing, Poisson scattering, and reusable node network synthesis via Python.
+- **Material Artistry (`technologies/blender/material-artistry.md`)**: Photorealistic Principled BSDF node trees (anisotropic brushed titanium, obsidian ceramic, optical glass with dispersion, procedural micro-imperfections).
+- **Cinematography & Studio Lighting (`technologies/blender/cinematography.md`)**: Exact focal length selection (85mm telephoto vs 35mm wide), 2-node tracked camera rigs with Depth of Field, commercial softbox studio lighting, and dramatic chiaroscuro.
+- **Animation Systems (`technologies/blender/animation-systems.md`)**: F-Curve keyframe choreography, Bezier cubic easing handles, multi-axis kinetic motion, exploded view mechanics, and follow-path constraints.
+- **Rendering Pipeline (`technologies/blender/rendering-pipeline.md`)**: AgX/Filmic high-contrast color management, EEVEE vs Cycles performance tuning, and low-hardware CPU rasterization profiling.
+
+### 3. Modular Python Production Toolkit (`technologies/blender/scripts/`)
+- `core/scene_manager.py`: Scene purging, metric scaling, world environment, and AgX management.
+- `core/render_manager.py`: Dual-mode (PREVIEW vs FINAL) rendering management with hardware awareness.
+- `core/camera_manager.py`: Tracked 2-node camera rigs with Depth of Field.
+- `core/material_manager.py`: Procedural PBR material generators (titanium, chrome, ceramic, glass).
+- `core/lighting_manager.py`: Commercial 3-light studio rigs & chiaroscuro setups.
+- `core/blender_client.py`: Multi-mode client supporting live WebSocket/HTTP bridge (:8198) and headless CLI execution.
+- `quality/scene_audit.py`: Automated scene diagnostic checking cameras, lights, unapplied transforms, materials, and polycounts.
+- `presets/studio_product.py`: Curved infinity cove cyclorama with 3-point studio lighting.
+- `presets/cinematic_scene.py`: Monolithic floor, chiaroscuro lighting, and 35mm wide framing.
+- `utilities/render_preview.py`: CLI/script preview renderer.
+- `utilities/export_glb.py`: Draco-compressed GLB export utility.
+
+### 4. Real-World Production Benchmarks (`benchmarks/`)
+Complete verified projects with automated build scripts, saved `.blend` files, and rendered visual outputs:
+- **Benchmark A (`benchmarks/benchmark_a_luxury_product/`)**: "AURA-01" Luxury Audio Dial (Brushed titanium, knurled bezel, smoked glass, infinity cyclorama, 85mm DOF).
+- **Benchmark B (`benchmarks/benchmark_b_cinematic_scene/`)**: "KAIROS MONOLITH" (Brutalist obelisk, reflective obsidian floor, emissive cyan glyph, chiaroscuro lighting, 35mm wide lens).
+- **Benchmark C (`benchmarks/benchmark_c_brand_reveal/`)**: "NEXUS IDENTITY" (Interlocking kinetic emblem, multi-axis counter-rotation, cubic Bezier easing, camera dolly-in).
+
+---
+
+## Directory Architecture
 
 ```
 creative-motion-engineer/
-├── SKILL.md                          # Main Agent Entry Point & Decision Trees
+├── SKILL.md                          # Main Agent Entry Point (CME 2.0 Standard)
 ├── README.md                         # Architecture Overview & Engineering Guide
 ├── AGENT-INSTALL.md                  # Multi-Platform Agent Installation Guide
 ├── CHANGELOG.md                      # Version History & Release Notes
 ├── manifest.json                     # Skill Manifest & Tool Bindings
 ├── QUALITY-REPORT.md                 # Validation Audit & Verification Report
+├── AUDIT/                            # Audit Reports & Upgrade Blueprints
+│   └── CME-2.0-UPGRADE-REPORT.md     # Comprehensive 2.0 Gap Analysis & Roadmap
 │
 ├── core/                             # Creative & Visual Intelligence
 │   ├── creative-intelligence.md      # Creative Director Mindset & Conceptualization
@@ -33,7 +71,14 @@ creative-motion-engineer/
 │   ├── motion-principles.md          # 12 Principles, Easing Math & Spring Physics
 │   ├── design-language.md            # Motion Systems, Spacing & Color Dynamics
 │   ├── creative-direction.md         # Art Direction, Storyboarding & Moodboards
-│   └── quality-standards.md          # The 6 Quality Gates for Production
+│   ├── professional-art-direction.md # 10-Step Pre-Production Protocol & Dialect Matrix
+│   └── quality-standards.md          # The 6 Foundational Quality Gates
+│
+├── benchmarks/                       # Real-World Production Benchmarks
+│   ├── BENCHMARKS.md                 # Benchmark Specifications & Verification Log
+│   ├── benchmark_a_luxury_product/   # AURA-01 Audio Dial (.blend, preview & 1080p final)
+│   ├── benchmark_b_cinematic_scene/  # KAIROS Monolith (.blend, preview & 1080p final)
+│   └── benchmark_c_brand_reveal/     # NEXUS Animated Reveal (.blend, preview & 1080p final)
 │
 ├── domains/                          # Creative Production Domains
 │   ├── motion-graphics/              # 2D Animation, Kinetic Type, Logo Reveals
@@ -48,63 +93,78 @@ creative-motion-engineer/
 │   ├── threejs/                      # Scenegraph, PBR Shaders, Camera Rigs, Optimization
 │   ├── react-three-fiber/            # R3F Canvas, Drei Helpers, Spring Hooks
 │   ├── remotion/                     # Programmatic Video, Interpolation, Audio Sync
-│   ├── blender/                      # Live Bridge (:8198), Headless Python (bpy), GLTF Export
-│   │   ├── live-bridge.md            # Live HTTP Server & Client Protocol Architecture
-│   │   ├── procedural-generation.md  # Bmesh Modeling, PBR Shaders & Turntable Keyframing
-│   │   └── scripts/                  # Production Server & Client Bridge Tools
+│   ├── blender/                      # Professional Blender 3D Specialization
+│   │   ├── SKILL.md                  # Blender Agent Sub-Skill & Routing Table
+│   │   ├── advanced-modeling.md      # Hard-Surface Topology & Modifier Stacks
+│   │   ├── geometry-nodes.md         # Procedural Instancing & Node Graphs
+│   │   ├── material-artistry.md      # Principled BSDF, Metals, Glass & Imperfections
+│   │   ├── cinematography.md         # Focal Lengths, 2-Node Camera Rigs & Studio Lighting
+│   │   ├── animation-systems.md      # F-Curve Bezier Easing & Kinetic Rigging
+│   │   ├── rendering-pipeline.md     # AgX Color Science, EEVEE vs Cycles & CPU Profiles
+│   │   ├── live-bridge.md            # Real-time HTTP/WebSocket Bridge Architecture
+│   │   └── scripts/                  # Modular Python Production Toolkit
+│   │       ├── core/                 # Scene, Camera, Light, Material & Render Managers
+│   │       ├── presets/              # Studio Product & Cinematic Presets
+│   │       ├── quality/              # Scene Diagnostic Auditor
+│   │       └── utilities/            # Rapid Preview & Draco GLB Exporter
 │   ├── rive/                         # State Machines, Vector Runtimes, Interactive Bones
 │   ├── lottie/                       # Vector Playback, DotLottie, Web Optimization
 │   ├── webgl/                        # Bare-metal WebGL, Buffer Attributes, Uniforms
 │   ├── glsl-shaders/                 # Vertex & Fragment Shaders, Noise, Raymarching
 │   ├── ffmpeg/                       # Transcoding, Codecs, Bitrates, ProRes, WebM Alpha
-│   ├── motion/                       # Framer Motion, Shared Layout, Gesture Physics
-│   └── css-svg/                      # CSS Transforms, SVG Stroke Animation, Clip-Path
+│   └── motion/                       # Framer Motion, Shared Layout, Gesture Physics
 │
-├── workflows/                        # Standard Operating Procedures
-│   ├── website-motion-workflow.md    # Award-Winning Interactive Website Pipeline
-│   ├── cinematic-video-workflow.md   # High-Impact Promotional Video Pipeline
-│   ├── 3d-website-workflow.md        # Interactive 3D Product Experience Pipeline
-│   ├── product-advertisement-workflow.md # 15s/30s Commercial Video Pipeline
-│   ├── logo-animation-workflow.md    # Brand Identity Reveal Pipeline
-│   ├── blender-live-workflow.md      # Live Interactive 3D Modeling & Export Pipeline
-│   ├── vfx-workflow.md               # Custom Post-Processing & Shader Pipeline
-│   └── performance-audit-workflow.md # Profiling, DevTools & Memory Hygiene
+├── workflows/                        # Production Workflows & Feedback Loops
+│   ├── blender-visual-iteration-workflow.md # Mandatory 12-Stage Feedback Loop
+│   ├── hybrid-motion-production.md   # Multi-Tool Pipeline (Blender ➔ Remotion ➔ Web)
+│   └── blender-live-workflow.md      # Live Bridge Interactive Workflow
 │
-├── examples/                         # Verified Starter Codebases
-│   ├── gsap/                         # Hero Reveal & Scroll Sequence (TypeScript)
-│   ├── threejs/                      # Interactive Floating Mesh Scene (TypeScript)
-│   ├── shaders/                      # Chromatic Aberration & Wave Distortion Shaders
-│   ├── remotion/                     # Commercial Showcase Video Composition
-│   ├── css/                          # Hardware-Accelerated Micro-Interactions
-│   └── svg/                          # Dynamic Vector Stroke Draw-On
-│
-├── checklists/                       # Quality Control Checklists
-│   ├── pre-production.md             # Discovery, Assets, Constraints Audit
-│   ├── web-animation-quality.md      # FPS, Layout Shift, Compositor Checks
-│   ├── video-quality.md              # Codec, Frame Drops, Audio Loudness Checks
-│   ├── 3d-quality.md                 # Draw Calls, Triangles, VRAM Checks
-│   ├── mobile-performance.md         # Battery, Thermal, Touch Latency Checks
-│   └── accessibility.md              # Reduced Motion, ARIA, Focus Traps
-│
-└── resources/                        # Reference Knowledge Bases
-    ├── official-documentation.md     # Authoritative Manuals & API Docs
-    ├── learning-roadmap.md           # Junior to Senior Creative Technologist Path
-    └── terminology.md                # Motion, 3D, Cinematography & Shader Glossary
+└── checklists/                       # Quality Control & Acceptance Checklists
+    └── blender-professional-quality.md # The 9 Production Quality Gates
 ```
 
 ---
 
-## Core Philosophy
+## The 9 Production Quality Gates
 
-### 1. Concept Precedes Code
-No animation should exist without purpose. Motion clarifies structure, guides attention, establishes brand identity, and creates emotional connection. If removing an animation improves comprehension, remove it.
+Every 3D and motion deliverable produced using CME 2.0 must pass:
 
-### 2. Zero-Slop Standard
-Generic purple-blue floating blur cards, senseless bobbing icons, and template-based animations are strictly forbidden. Every piece of work must have intentional art direction, disciplined typography, balanced negative space, and custom choreography.
+1. **Gate 1: Physical Coherence & Scale**: Exact real-world metric dimensions and applied scales (`Ctrl+A ➔ All Transforms`).
+2. **Gate 2: Lighting Purity & Hierarchy**: Clear primary key light, secondary fill, and grazing rim light. Zero unmotivated flat ambient lighting.
+3. **Gate 3: Silhouette & Edge Treatment**: Chamfered/beveled micro-edges on all hard surfaces with weighted normal modifiers to catch light highlights.
+4. **Gate 4: Motion Easing Rigor**: Natural cubic Bezier acceleration/deceleration with `AUTO_CLAMPED` handles. Zero robotic linear stops.
+5. **Gate 5: Color Science (AgX / Filmic)**: Dynamic range color management set to `AgX` or `Filmic` with `High Contrast` look. Standard sRGB clipping is strictly forbidden.
+6. **Gate 6: Zero Primitive Slop**: No unmodeled default cubes, spheres, or cylinders. All assets must possess deliberate form, purpose, and micro-details.
+7. **Gate 7: Render-Inspect-Correct Cycle**: Mandatory intermediate render verification and diagnostic auditing (`scene_audit.py`).
+8. **Gate 8: Low-Hardware Profiling**: Real-time polygon and sample budget management ensuring clean execution on dual-core CPU machines.
+9. **Gate 9: Deterministic Delivery**: Automated reproducibility via clean Python scripts, saved `.blend` files, and rendered assets.
 
-### 3. Engineering Rigor
-Creative experiences must run smoothly on real hardware. We enforce:
-- Sub-16.6ms frame times (60fps baseline).
-- GPU-accelerated CSS properties (`transform`, `opacity`) avoiding layout thrashing.
-- Comprehensive memory cleanup (`dispose()`, `context.revert()`).
-- Responsive fallbacks and full `prefers-reduced-motion` support.
+---
+
+## Installation & Setup
+
+### In Antigravity / Gemini CLI:
+```bash
+# Clone repository into active skills directory
+git clone https://github.com/MADHacker912/creative-motion-engineer.git ~/.gemini/config/skills/creative-motion-engineer
+```
+
+### In Claude Code:
+```bash
+# Add as a skill or include in your project
+git clone https://github.com/MADHacker912/creative-motion-engineer.git ~/.claude/skills/creative-motion-engineer
+```
+
+### In Cursor / Windsurf / Cline / Roo-Code:
+Add the path to your rules or `.cursorrules` / `.windsurfrules`:
+```markdown
+# Creative Motion Engineering
+Always consult and follow instructions in:
+`~/.gemini/config/skills/creative-motion-engineer/SKILL.md`
+```
+
+---
+
+## License
+
+MIT © [MADHacker912](https://github.com/MADHacker912) & Antigravity Creative Team.

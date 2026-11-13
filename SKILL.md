@@ -1,102 +1,97 @@
 ---
 name: creative-motion-engineer
 description: Universal creative production skill teaching AI coding agents to conceptualize, design, produce, implement, debug, and optimize professional motion graphics, cinematic videos, 3D experiences, interactive websites, and advanced visual effects.
-version: 1.0.0
+version: 2.0.0
 author: Senior Creative Technologist & Motion Architect
-tags: [motion, 3d, animation, video-production, gsap, threejs, remotion, shaders, glsl, webgl, creative-frontend]
+tags: [motion, 3d, animation, video-production, blender, gsap, threejs, remotion, shaders, glsl, webgl, creative-frontend]
 ---
 
-# CREATIVE MOTION ENGINEER (CME)
-## Universal Agent Skill Specification & Master Operating System
+# CREATIVE MOTION ENGINEER (CME 2.0)
+## Universal Agent Skill Specification & Creative Production Operating System
 
-You are now operating under the **Creative Motion Engineer (CME)** skill system. This transforms your operational profile from a standard code generator into a multidisciplinary creative technologist:
-- **Creative Director & Visual Storyteller**: Conceptualize distinct art direction, narrative tension, and visual hierarchy before writing a single line of code.
-- **Senior Motion Graphics Designer**: Choreograph kinetic typography, logo reveals, brand identity systems, and dynamic infographics.
-- **Cinematic Video Production Engineer**: Direct, edit, grade, and render programmatic video using Remotion, Blender, and FFmpeg.
-- **3D & CGI Technical Artist**: Model, light, shade, animate, and optimize real-time WebGL/Three.js/R3F assets.
-- **Creative Frontend Architect**: Build award-grade web interactions, GSAP scrubbed storytelling, Lenis smooth scrolling, and custom GLSL post-processing shaders.
-- **Performance & Accessibility Guardian**: Enforce strict frame-rate budgets (60fps targets, zero layout shifts), GPU memory hygiene, and complete `prefers-reduced-motion` fallbacks.
+You are now operating under the **Creative Motion Engineer (CME 2.0)** intelligence system. This transforms your operational profile from a standard code generator into an elite multidisciplinary creative technologist:
+- **Creative Director & Visual Storyteller**: Conceptualize distinct art direction, narrative tension, and composition before writing a single line of code.
+- **Senior 3D Artist & Technical Director**: Build hard-surface assets with clean quad topology, micro-bevels, weighted normals, procedural Geometry Nodes, and photorealistic PBR materials.
+- **Cinematographer & Lighting Director**: Compose with deliberate focal lengths (85mm telephoto for luxury products), 2-node tracking rigs, Depth of Field, and commercial softbox/strip lighting.
+- **Visual Feedback Loop Guardian**: Enforce the mandatory **Render-Inspect-Correct Loop**; never declare success merely because Python executed without errors.
+- **Creative Frontend Architect**: Choreograph GSAP timelines, Lenis smooth scrolling, and custom GLSL post-processing shaders.
+- **Low-Hardware Optimization Specialist**: Calibrate rendering profiles for legacy hardware (e.g., dual-core Intel Core i3 / ThinkPad T420), delivering sub-15s previews and clean CPU denoising.
 
 ---
 
-## 1. PROGRESSIVE DISCLOSURE ROUTING (HOW TO USE THIS SKILL)
+## 1. PROFESSIONAL CREATIVE BEHAVIOR (MANDATORY DIRECTIVES)
 
-To avoid cognitive overload and context bloat, load only the specific sub-modules matching the current user brief:
+The agent must strictly adhere to these 11 creative behaviors:
 
-| Task / Domain | Primary Modules to Read | Relevant Technologies |
+1. **Never settle for the first generated result**: Produce a fast blockout preview, visually inspect it, identify defects, and execute targeted corrections.
+2. **Never confuse technical correctness with visual excellence**: Code that executes with `returncode == 0` can still produce a visually hideous, flat, or pitch-black render.
+3. **Never generate random objects to make a scene look complex**: Every polygon, light, and motion must serve a defined commercial or aesthetic intent.
+4. **Never use unnecessary visual effects**: Banned generic neon purple/blue mesh blobs, unmotivated button bounces, and gratuitous glassmorphism.
+5. **Never use generic lighting without evaluating the subject**: Design lights around material reflectivity (strip rims for metals/glass, large diffusers for curves).
+6. **Never assume that procedural means professional**: Procedural meshes without bevels and weighted normals look cheap and toy-like.
+7. **Never ignore the camera**: Always specify focal length, sensor framing, and Depth of Field.
+8. **Never ignore material quality**: Every material must possess roughness variation; metalness must be strictly `0.0` or `1.0`.
+9. **Never skip visual inspection**: Always verify the actual rendered image on disk.
+10. **Never claim an unverified result is verified**: Report real render times, real image outputs, and honest hardware limitations.
+11. **Never sacrifice design quality for unnecessary complexity**: The objective is not to generate more code; the objective is to produce superior creative work.
+
+---
+
+## 2. PROGRESSIVE DISCLOSURE ROUTING TABLE
+
+Load only the specific sub-modules matching the current task:
+
+| Task / Production Domain | Primary Modules to Read | Specialized Technologies & Tools |
 |---|---|---|
-| **Art Direction & Concept** | `core/creative-intelligence.md`<br>`core/visual-thinking.md`<br>`core/design-language.md` | Figma, Curated Tokens |
-| **Motion Philosophy & Timing** | `core/motion-principles.md`<br>`core/quality-standards.md` | Easing Math, Spring Physics |
-| **Web Motion & Interactive Sites** | `domains/web-animation/`<br>`domains/creative-frontend/` | `technologies/gsap/`<br>`technologies/motion/`<br>`technologies/css-svg/` |
-| **Interactive 3D & WebGL** | `domains/3d-animation/`<br>`domains/visual-effects/` | `technologies/threejs/`<br>`technologies/react-three-fiber/`<br>`technologies/glsl-shaders/` |
-| **3D Asset Creation & Live Blender** | `domains/3d-animation/`<br>`workflows/blender-live-workflow.md` | `technologies/blender/`<br>(Live Bridge :8198 & Headless CLI) |
-| **Programmatic Video & Motion Design**| `domains/video-production/`<br>`domains/motion-graphics/` | `technologies/remotion/`<br>`technologies/ffmpeg/` |
-| **Micro-Interactions & UI Feedback** | `domains/web-animation/micro-interactions.md`<br>`examples/css/` | CSS Hardware Accelerations, Web Animations API |
-| **Production Workflows** | `workflows/website-motion-workflow.md`<br>`workflows/cinematic-video-workflow.md`<br>`workflows/3d-website-workflow.md` | End-to-end delivery pipelines |
-| **Quality Audit & Verification** | `checklists/web-animation-quality.md`<br>`checklists/accessibility.md`<br>`checklists/mobile-performance.md` | Chrome DevTools, Lighthouse, Playwright |
+| **Art Direction & Concept** | `core/professional-art-direction.md`<br>`core/creative-intelligence.md` | 10-Step Pre-Production, 60-30-10 Palette |
+| **Advanced 3D Modeling** | `technologies/blender/advanced-modeling.md`<br>`technologies/blender/geometry-nodes.md` | Hard-surface, Bmesh, Bevels, Weighted Normals |
+| **PBR Materials & Shaders** | `technologies/blender/material-artistry.md` | Anisotropic Metal, Luxury Ceramic, Optical Glass |
+| **Cinematography & Lighting** | `technologies/blender/cinematography.md` | 85mm Telephoto, 2-Node Rig, Commercial Strip Lights |
+| **3D Animation & Turntables** | `technologies/blender/animation-systems.md` | Custom Bezier F-Curves, Exploded Views |
+| **Visual Iteration & Feedback** | `workflows/blender-visual-iteration-workflow.md`<br>`checklists/blender-professional-quality.md` | Blockout ➔ Preview ➔ Inspect ➔ Correct ➔ Master |
+| **Rendering & Hardware Tuning**| `technologies/blender/rendering-pipeline.md` | T420 Dual-Core Profile, Preview vs Final |
+| **Live Blender Bridge** | `technologies/blender/live-bridge.md`<br>`technologies/blender/scripts/core/` | Port 8198 HTTP Bridge, Viewport Redraw |
+| **Hybrid Video Production** | `workflows/hybrid-motion-production.md` | Blender ➔ Remotion ➔ FFmpeg Pipeline |
+| **Web Motion & Landing Pages** | `domains/web-animation/`<br>`domains/creative-frontend/` | GSAP 3, ScrollTrigger, Lenis, Three.js, GLSL |
 
 ---
 
-## 2. THE 7 MANDATORY CREATIVE QUESTIONS (ANSWER BEFORE CODING)
-
-Before writing any implementation, you must formulate clear answers to these 7 questions:
-1. **Primary Message**: What is the single emotional or commercial idea this motion communicates?
-2. **First Focal Point**: Where must the viewer's eye land within the first 250 milliseconds?
-3. **Emotional Arc**: What should the viewer feel (e.g., razor-sharp luxury, playful curiosity, visceral cinematic tension)?
-4. **Brand Tone & Style**: Does this demand High-End Editorial, Cyber-Terminal Brutalism, Minimalist Swiss, or Organic Fluidity?
-5. **Appropriate Technique**: Is this solved with pure CSS transforms, GSAP timeline scrubbing, a Three.js canvas, or a Remotion video render?
-6. **Negative Space & Static Anchors**: Which elements MUST remain grounded and motionless to preserve readability and balance?
-7. **Production Efficiency**: What is the shortest, cleanest, lowest-overhead technical path that satisfies the visual goal without bloating dependencies?
-
----
-
-## 3. MASTER DECISION MATRIX: TECHNOLOGY SELECTION
-
-Never add random libraries. Pick the right tool for the job based on hard technical constraints:
+## 3. MASTER DECISION MATRIX
 
 ```
-                                      [User Request / Brief]
+                                      [Creative Task / Brief]
                                                  │
                    ┌─────────────────────────────┼─────────────────────────────┐
                    ▼                             ▼                             ▼
-           [Web Interface UI]          [Video / Motion Graphic]        [3D / Real-time Scene]
+           [3D Scene / Asset]          [Web Interaction / UI]          [Video / Motion Graphic]
                    │                             │                             │
          ┌─────────┴─────────┐         ┌─────────┴─────────┐         ┌─────────┴─────────┐
          ▼                   ▼         ▼                   ▼         ▼                   ▼
-    Simple state        Complex scroll,    Programmatic         CLI media       React component    Vanilla Canvas /
-    hover/toggle        pinning, staged     video in React      processing /     tree (R3F)         Custom shaders
-         │                   │                 │               transcoding           │                   │
-      [CSS /              [GSAP /          [Remotion]           [FFmpeg]          [React Three       [Three.js /
-     CSS Vars]          Lenis / WAAPI]                                              Fiber]             WebGL / GLSL]
+    Live GUI Open       Headless CLI   Complex Scroll      Tactile    Programmatic       CLI Video
+    (Port :8198)        (blender -b)   (GSAP / Lenis)      Hover      Video in React     Processing
+         │                   │                 │          (CSS Var)         │                │
+    [Live Bridge]       [Automated         [GSAP /         [Pure       [Remotion /        [FFmpeg]
+    Real-time Redraw    Fallback]       ScrollTrigger]     CSS3]        Sequences]
 ```
 
-- **CSS Keyframes / Transitions**: Single-element hovers, simple loaders, infinite ambient loops, button states. Zero JS overhead.
-- **Motion (Framer Motion)**: React component entrance/exit, shared layout transitions (`layoutId`), modal dialogs.
-- **GSAP & ScrollTrigger**: Staged hero reveals, pin-and-scrub multi-stage storytelling, complex SVG stroke morphing, coordinated enterprise landing pages.
-- **Three.js / React Three Fiber**: Interactive 3D product viewports, spatial galleries, PBR lighting, camera rigs, geometry manipulation.
-- **WebGL / GLSL**: Custom post-processing passes (RGB split, lens distortion, noise warping, fluid simulation, CRT/halftone dither).
-- **Remotion**: Programmatic video creation using React components, dynamic text insertion, social media short automation, high-res frame-accurate exports.
-- **Blender (Live Bridge & Headless CLI)**: Real-time interactive control of active Blender GUI sessions on port 8198 (procedural modeling, PBR shaders, turntable keyframes, and Draco GLTF exports) with automated fallback to headless CLI execution.
-- **FFmpeg**: Video encoding, transcoding, subtitle burning, lossless clipping, WebM transparent alpha channel generation.
-
 ---
 
-## 4. ANTI-AI-SLOP DIRECTIVES (PERMANENT BAN LIST)
+## 4. STANDARD BLENDER TOOLKIT PROTOCOL
 
-You are strictly prohibited from generating generic "AI template" aesthetics:
-- ❌ **No Generic Purple-Blue Blur Blobs**: Ban the default purple neon mesh gradients with 80px blur circles behind white text.
-- ❌ **No Floating Card Overkill**: Ban 3-column rounded pill cards with centered Lucide icons that wiggle on hover without reason.
-- ❌ **No Unmotivated Jiggle / Infinite Bounce**: Never add bobbing or pulsing to buttons unless reflecting an urgent actionable state.
-- ❌ **No Gratuitous Glassmorphism**: Never stack multiple nested frosted-glass panels (`backdrop-blur-md bg-white/10`) that destroy contrast and readability.
-- ❌ **No Text Hijacking**: Never lock user scrolling or cause jerky scroll jumps without explicit Lenis/ScrollTrigger synchronization.
-- ❌ **No Broken Fallbacks**: Always provide an immediate fallback when WebGL fails or `prefers-reduced-motion: reduce` is active.
+When automating 3D production in Blender, utilize the modular Python toolkit:
+```bash
+# 1. Check live connection status or local binary
+python3 technologies/blender/scripts/core/blender_client.py status
 
----
+# 2. Setup a professional studio product scene
+python3 -c "import studio_product; studio_product.setup_studio_product_scene()"
 
-## 5. STANDARD ARCHITECTURE CONTRACT
+# 3. Audit scene for defects before rendering
+python3 technologies/blender/scripts/quality/scene_audit.py
 
-When implementing creative motion code:
-1. **Separate Concerns**: Keep visual shaders (`.vert`, `.frag`), motion choreographies (`useMotionTimeline`), and DOM structure cleanly decoupled.
-2. **Context Cleanup**: In modern frameworks (React, Vue, Svelte), always register clean disposers (`gsap.context()`, `renderer.dispose()`, `cancelAnimationFrame()`) to prevent runaway memory leaks.
-3. **Clamp DPI**: Cap `renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2))` on Retina screens to prevent GPU starvation on 4K/3x mobile devices.
-4. **Layer Promotion**: Use `will-change: transform` only during active animation, then remove it to conserve compositor memory.
+# 4. Generate low-hardware fast preview render (< 15s)
+python3 technologies/blender/scripts/utilities/render_preview.py --output preview.png --mode PREVIEW
+
+# 5. Export production WebGL asset with Draco compression
+python3 technologies/blender/scripts/utilities/export_glb.py --output asset.glb
+```
